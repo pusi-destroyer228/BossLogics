@@ -1,0 +1,658 @@
+body{
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+.background{
+    background-image: url(../img/background.svg);
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1410px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;  
+    margin-right: -30px;
+}
+
+.first_span {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    background-size: contain;
+    background: url(../img/Path1.svg) no-repeat left bottom;
+}
+
+.img img{
+    width: 100%;
+    margin-left: 50px;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+.nav-menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li{
+    margin-right: 70px;
+}
+
+.nav-menu li a{
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fefefe;
+    font-weight: 500;
+    font-family: "Geometria";
+    text-decoration: none;
+}
+
+
+.nav-menu li a:hover{
+    color: #1a1a1a;
+}
+
+.home-section .abstract {
+    top: 0;
+    right: 0;
+}
+
+.abstract_1 {
+    max-width: 1360px;
+    width: 75vw;
+}
+
+.abstract_1, .abstract_2, .abstract_3 {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    z-index: -1;
+}
+
+.abstract_2 {
+    max-width: 1033px;
+    width: 60vw;
+}
+
+img, picture, source {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    display: block;
+    border-style: none;
+}
+
+
+        /* SOCIAL */
+
+
+.social ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.twit {
+    margin: 0 29px;
+}
+
+.linke {
+    margin-left: 27px;
+}
+
+.social a {
+    display: block;
+    background: url(../img/sprite.png) no-repeat;
+ }
+ 
+
+ a.fb {
+    height: 19px;
+    width: 11px;
+    background-position: 0px 0px;
+ }
+ 
+ .social li:hover>.fb {
+    height: 19px;
+    width: 10px;
+    background-position: 0px -22px;
+ }
+ 
+ a.tw {
+    width: 22px;
+    height: 20px;
+    background-position: -14px 0;
+ }
+ 
+ .social li:hover>.tw {
+    width: 23px;
+    height: 20px;
+    background-position: -12px -22px;
+ }
+ 
+ a.inst {
+    width: 19px;
+    height: 20px;
+    background-position: -39px 0px;
+ }
+ 
+ .social li:hover>.inst {
+    width: 19px;
+    height: 20px;
+    background-position: -38px -22px;
+ }
+
+a.in {
+    width: 20px;
+    height: 20px;
+    background-position: -62px 0px;
+ }
+
+ .social li:hover>.in {
+    width: 20px;
+    height: 20px;
+    background-position: -61px -22px;
+ }
+
+ .sociall ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sociall a {
+    display: block;
+    background: url(../img/sprite.png) no-repeat;
+ }
+ 
+
+        /* SOCIAL */
+
+        /* MAIN */
+
+.main-first{
+    padding-top: 250px;
+    margin-right: -30px;
+}
+
+.main-text{
+    border-left: 3px solid #00cbff;
+    margin-right: -30px;
+}
+
+.main-text h1{
+    max-width: 900px;
+    font-size: 70px;
+    color: #1a1a1a;
+    font-weight: 500;
+    font-family: "Geometria-Medium";
+    padding-left: 20px;
+    margin-right: -30px;
+}
+
+.line > b {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #09f;
+    mix-blend-mode: overlay;
+    -webkit-text-stroke: 1px #09f;
+    -webkit-text-fill-color: transparent;
+    line-height: inherit;
+}
+
+.mini-text p{
+    font-size: 18px;
+    color: #2b2b2b;
+    font-family: "Geometria";
+    margin: 0;
+}
+
+
+
+#margin-top{
+    margin-top: 40px;
+}
+
+#margin-top-second{
+    margin-top: 40px;
+}
+
+#margin-top-nonum{
+    margin-top: 40px;
+}
+
+.margin-top-third{
+    padding-top: 20px;
+}
+
+.botton{
+    display: flex;
+    margin: 55px 0;
+}
+
+.buttom a{
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #2b2b2b;
+    font-weight: bold;
+    font-family: "Geometria";
+    border: 2.5px solid #0099ff;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 22px 66px 21px 71px;
+    margin-right: 30px;
+    transition-duration: 0.5s;
+}
+
+.button a{
+    color: #ffffff;
+    background-color: #0099ff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Geometria";
+    border: 2.5px solid #0099ff;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 22px 64px 21px 68px;
+    margin-right: 30px;
+}
+
+.buttom a:hover{
+    color: #ffffff;
+    background-color: #0099ff;
+    transition-duration: 0.5s;
+}
+
+.button a:hover{
+    color: #2b2b2b;
+    background-color: #fff;
+}
+
+
+.main-second{
+    margin: 360px 0 180px 0;
+    display: flex;
+}
+
+.main-seconde .abstract {
+    max-width: 600px;
+    top: 80px;
+    left: -40px;
+    z-index: -1;
+}
+
+.abstract_10 {
+    max-width: 100%;
+}
+
+.abstract_11 {
+    max-width: 85%;
+    top: 10%;
+}
+
+.abstract_10, .abstract_11 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.main-seconde {
+    position: relative;
+    overflow: hidden;
+}
+
+.dfl{
+    display: flex;
+    align-items: center;
+}
+
+.pipyka{
+    margin-left: 110px;
+}
+
+.pipyk{
+    margin-left: 95px;
+}
+
+.image{
+    margin: -65px 85px 0 0;
+    width: 100%;
+    max-width: 515px;
+    display: block;
+}
+
+.main-third{
+    padding-top: 100px;
+}
+
+.mini-text h3{
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #0099ff;
+    font-weight: bold;
+    font-family: "Geometria";
+    padding-top: 50px;
+}
+
+.main-text-title{
+    margin-bottom: 95px;
+}
+
+.main-text-title h1{
+    font-size: 70px;
+    color: #1a1a1a;
+    font-weight: 500;
+    font-family: "Geometria";
+    text-align: center;
+}   
+
+.main-four{
+    width: 100%;
+    max-width: 1100px;
+    text-align: center;
+    margin: 300px 0 0 150px;
+}
+
+.items-title h4{
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    font-weight: bold;
+    font-family: "Geometria";
+    text-align: center;
+}
+
+.sub-title-p p{
+    font-size: 18px;
+    color: #2b2b2b;
+    font-family: "Geometria";
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    margin-top: 25px;
+}
+
+.flexx{
+    display: flex;
+    padding-top: 80px;
+}
+
+.first-mini-block{
+    width: 100%;
+    max-width: 250px;
+}
+
+.second-mini-block{
+    width: 100%;
+    max-width: 250px;
+}
+
+.third-mini-block{
+    width: 100%;
+    max-width: 250px;
+}
+
+.padd{
+    padding-left: 180px;
+}
+
+.bottom{
+    margin: 85px 0 100px 0;
+    transition-duration: 0.5s;
+}
+
+.button a {
+    transition-duration: 0.5s;
+}
+
+.bottom h2 a{
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #2b2b2b;
+    font-weight: bold;
+    font-family: "Geometria";
+    border: 2.5px solid #0099ff;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 20px 85px;
+}
+
+.bottom h2 a:hover{
+    color: #ffffff;
+    background-color: #0099ff;
+    transition-duration: 0.5s;
+}
+
+.no-padd{
+    margin: 0;
+}
+
+.tak-padd{
+    margin-bottom: 35px;
+}
+
+#niebies{
+    margin: 50px 0 0 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #0099ff;
+    font-weight: bold;
+    font-family: "Geometria";
+}
+
+.gray{
+    font-size: 18px;
+    color: #a3a3a3;
+    font-family: "Geometria";
+    margin: 6px 0;
+}
+
+.flex-image-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-fife{
+    margin: 285px 0 210px 0;
+}
+
+
+.gg{
+    padding: 20px 0 50px 0;
+}
+
+.bottom h2{
+    margin-top: 40px;
+}
+
+footer{
+    background-color: #001626;
+}
+
+.wrapp-sec{
+    width: 100%;
+    max-width: 1410px;
+    margin: 0 auto;
+}
+
+.flex-image{
+    display: flex;
+    align-items: center;
+}
+
+.picture-sub-title p{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Geometria";
+    margin: 0;
+}
+
+.picture picture img{
+    padding: 3px 0 15px 0;
+}
+
+.pelmen{
+    padding-top: 15px;
+    border-top: 1px solid #00ccff;
+}
+
+.footer-text{
+    margin: 0 120px;
+}
+
+.footer-title{
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #0099ff;
+    font-weight: bold;
+    font-family: "Geometria";
+}
+
+.sub-title-nav a{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Geometria";
+    text-decoration: none;
+    text-align: left;
+}
+
+.sub-title-nav {
+    list-style: none;
+}
+
+.sub-title-nav{
+    padding: 0;
+}
+
+.pdr{
+    padding: 15px 0;
+}
+
+.posh::before{
+    content: url(../img/posh.png);
+    padding-right: 10px;    
+}
+
+.tel::before{
+    content: url(../img/tel.png);
+    padding-right: 10px;
+}
+
+.bs-lg::before{
+    content: url(../img/toch.png);
+    padding-right: 17px;
+}
+
+.poiu{
+    padding-left: 27px;
+}
+
+.input input{
+    width: 290px;
+    border-radius: 40px;
+    padding: 10px 0 10px 20px;
+    background-color: #001726;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.all-foot{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.botoon button{
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Geometria";
+    background-color: #0099ff;
+    border: 1px solid #0099ff;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 10px 35px;
+}
+
+.botoon button{
+    margin-left: 20px;
+}
+
+.botoon button:hover{
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #2b2b2b;
+    font-weight: bold;
+    font-family: "Geometria";
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-menuu{
+    padding-left: 120px;
+}
+
+
+.sociall li{
+    padding: 50px 0 0 50px;
+}
+
+form{
+    display: flex;
+}
+
+
+        /* FONT-FAMILY */
+
+
+@font-face {
+    font-family: "Geometria";
+    src: url(../fonts/Geometria.ttf);
+}
+
+@font-face {
+    font-family: "Geometria-Bold";
+    src: url(../fonts/Geometria-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Geometria-Medium";
+    src: url(../fonts/Geometria-Medium.ttf);
+}

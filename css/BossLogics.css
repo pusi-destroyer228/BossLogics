@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .header {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,13 +24,57 @@ h1, h2, h3, h4, h5, h6{
     margin-right: -30px;
 }
 
-.first_span {
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+.bg1 {
     position: absolute;
-    background-size: contain;
-    background: url(../img/Path1.svg) no-repeat left bottom;
+    background-image: url(../img/Path1.svg);
+    background-repeat: no-repeat;
+    background-position-y: -25rem;
+    right: 2%;
+    width: 73%;
+    height: 825rem;
+    z-index: -1;
+}
+
+.bg2 {
+    position: absolute;
+    background-image: url(../img/Path2.svg);
+    background-repeat: no-repeat;
+    background-position-y: -25rem;
+    right: 0;
+    width: 58%;
+    height: 700rem;
+    z-index: -1;
+}
+
+.bg3 {
+    position: absolute;
+    background: url(../img/Path3.svg);
+    background-repeat: no-repeat;
+    background-position-y: -27rem;
+    right: 0;
+    width: 45%;
+    height: 540rem;
+    z-index: -1;
+}
+
+.bg6 {
+    position: absolute;
+    background: url(../img/Path\ 21.svg) no-repeat;
+    top: -12rem;
+    left: -12rem;
+    width: 60%;
+    height: 800rem;
+    z-index: -1;
+}
+
+.bg7 {
+    position: absolute;
+    background: url(../img/Path\ 22.svg) no-repeat;
+    top: -20%;
+    left: -8%;
+    width: 100%;
+    height: 650rem;
+    z-index: -1;
 }
 
 .img img{
@@ -131,26 +176,26 @@ img, picture, source {
 
  a.fb {
     height: 19px;
-    width: 13px;
+    width: 11px;
     background-position: 0px 0px;
  }
  
  .social li:hover>.fb {
     height: 19px;
-    width: 13px;
-    background-position: 0px -22px;
+    width: 11px;
+    background-position: 0px -44px;
  }
  
  a.tw {
     width: 23px;
     height: 20px;
-    background-position: -14px 0;
+    background-position: -13px 0;
  }
  
  .social li:hover>.tw {
     width: 23px;
     height: 20px;
-    background-position: -13px -22px;
+    background-position: -13px -44px;
  }
  
  a.inst {
@@ -162,7 +207,7 @@ img, picture, source {
  .social li:hover>.inst {
     width: 19px;
     height: 20px;
-    background-position: -38px -22px;
+    background-position: -39px -44px;
  }
 
 a.in {
@@ -174,7 +219,7 @@ a.in {
  .social li:hover>.in {
     width: 20px;
     height: 20px;
-    background-position: -61px -22px;
+    background-position: -62px -44px;
  }
 
  .sociall ul{
@@ -409,7 +454,7 @@ a.in {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #1a1a1a;
-    font-family: "Geometria";
+    font-family: "Geometria-Bold";
     text-align: center;
 }
 
@@ -848,6 +893,16 @@ form{
 
 .two {
     padding-right: 45px;
+}
+
+.two:hover {
+    font-size: 14px;
+    color: #0099ff;
+}
+
+.three:hover {
+    font-size: 14px;
+    color: #0099ff;
 }
 
 

@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6{
 
 .wrapper{
     width: 100%;
-    max-width: 1410px;
+    max-width: 1350px;
     margin: 0 auto;
     
 }
@@ -510,7 +510,6 @@ a.in {
 
 .dfl {
     position: relative;
-    overflow: hidden;
 }
 
 .dfl .abstract {

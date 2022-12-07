@@ -131,26 +131,26 @@ img, picture, source {
 
  a.fb {
     height: 19px;
-    width: 11px;
+    width: 13px;
     background-position: 0px 0px;
  }
  
  .social li:hover>.fb {
     height: 19px;
-    width: 11px;
+    width: 13px;
     background-position: 0px -22px;
  }
  
  a.tw {
-    width: 22px;
+    width: 23px;
     height: 20px;
     background-position: -14px 0;
  }
  
  .social li:hover>.tw {
-    width: 22px;
+    width: 23px;
     height: 20px;
-    background-position: -12px -22px;
+    background-position: -13px -22px;
  }
  
  a.inst {

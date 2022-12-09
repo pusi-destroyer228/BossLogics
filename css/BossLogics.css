@@ -156,6 +156,7 @@ h1, h2, h3, h4, h5, h6{
 .dfll {
     position: relative;
     overflow: hidden;
+    padding-bottom: 100px;
 }
 
 .dfll{
@@ -257,13 +258,16 @@ img{
     width: 23px;
     height: 20px;
     background-position: -13px 0;
-    margin: 0 20px;
  }
  
  .social li:hover>.tw {
     width: 23px;
     height: 20px;
     background-position: -13px -44px;
+ }
+
+ .twite {
+    margin: 0 20px;
  }
  
 
@@ -299,54 +303,11 @@ a.inl{
     background-position: -62px -44px;
  }
 
+.sociall {
+    display: flex;
+}
+
         /* SOCIAL */
-
-        /* SOCIALL */
-
-
-.sociall ul{
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.sociall a {
-    display: block;
-    background: url(../img/sprite.png) no-repeat;
-}
-
- 
-a.tww {
-    width: 23px;
-    height: 20px;
-    background-position: -13px 0;
-    margin: 0 20px;
-}
-
-.sociall ul{
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-
-a.ins{
-    width: 19px;
-    height: 20px;
-    background-position: -39px 0px;
-}
-
-a.lin {
-    width: 21px;
-    height: 21px;
-    background-position: -61px 0;
-}
-
-        /* SOCIALL */
-
-        /* MAIN */
 
 .main-first{
     padding-top: 250px;
@@ -357,7 +318,23 @@ a.lin {
     border-left: 3px solid #00cbff;
 }
 
-.main-text h1{
+.main-text h1 {
+    font-size: 60px;
+    color: #1a1a1a;
+    font-weight: 500;
+    font-family: "Geometria-Medium";
+    padding-left: 23px;
+}
+
+.main-text h2 {
+    font-size: 60px;
+    color: #1a1a1a;
+    font-weight: 500;
+    font-family: "Geometria-Medium";
+    padding-left: 23px;
+}
+
+.main-text-title h2 {
     font-size: 60px;
     color: #1a1a1a;
     font-weight: 500;
@@ -366,7 +343,7 @@ a.lin {
 }
 
 .osob-style{
-    font-size: 50px;
+    font-size: 55px;
     color: #1a1a1a;
     font-weight: 500;
     font-family: "Geometria-Medium";
@@ -416,7 +393,6 @@ a.lin {
     border-radius: 40px;
     text-decoration: none;
     padding: 20px 85px;
-    margin-right: 30px;
     transition-duration: 0.5s;
 }
 
@@ -462,7 +438,7 @@ a.lin {
 }
 
 .pipyk{
-    margin-left: 95px;
+    margin: 300px 0 0 150px;
 }
 
 .image{
@@ -507,6 +483,26 @@ a.lin {
     margin: 300px 0 0 150px;
 }
 
+.items {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.items1 {
+    margin-right: 2px;
+    margin-bottom: 25px;
+}
+
+.items2 {
+    margin-right: 12px;
+    margin-bottom: 25px;
+}
+
+.items3 {
+    margin-right: 4px;
+    margin-bottom: 25px;
+}
+
 .items-title h4{
     font-size: 20px;
     letter-spacing: 2px;
@@ -529,6 +525,10 @@ a.lin {
     margin-top: 25px;
 }
 
+.space-beetwen {
+    justify-content: space-between;
+}
+
 .flexx{
     display: flex;
     justify-content: space-between;
@@ -549,10 +549,6 @@ a.lin {
 .third-mini-block{
     width: 100%;
     max-width: 250px;
-}
-
-.padd{
-    padding-left: 180px;
 }
 
 .bottom{
@@ -625,7 +621,6 @@ a.lin {
     margin: 285px 0 210px 0;
 }
 
-
 .gg{
     padding: 20px 0 50px 0;
 }
@@ -668,7 +663,7 @@ footer{
 
 
 .img img{
-    max-width: 575px;
+    max-width: 700px;
 }
 
 .pelmen{
@@ -725,7 +720,7 @@ footer{
 
 .posh::before{
     content: url(../img/poshta.svg);
-    padding-right: 10px;
+    padding-right: 5px;
     margin-left: -20px;    
 }
 
@@ -794,8 +789,12 @@ footer{
     text-decoration: none;
 }
 
-.sociall li{
-    padding: 40px 20px 0 5px;
+.sociall {
+    margin: 40px 0 0 0;
+}
+
+.sociall  li {
+    margin: 0 40px 0 0;
 }
 
 form{
@@ -805,7 +804,6 @@ form{
 .lepa{
     margin-left: 20px;
 }
-
 
 .logo-fot-sec a{
     opacity: 0.612;

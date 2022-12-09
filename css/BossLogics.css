@@ -58,6 +58,25 @@ h1, h2, h3, h4, h5, h6{
     z-index: -1;
 }
 
+.bg4 {
+    position: absolute;
+    background: url(../img/Path\ 0\ \(3\).svg) no-repeat;
+    right: 0;
+    top: -75rem;
+    width: 52%;
+    height: 800rem;
+    z-index: -1;
+}
+
+.bg5 {
+    position: absolute;
+    background: url(../img/Path\ 0\ \(4\).svg) no-repeat;
+    right: -60rem;
+    width: 50%;
+    height: 664rem;
+    z-index: -1;
+}
+
 .bg6 {
     position: absolute;
     background: url(../img/Path\ 21.svg) no-repeat;
@@ -439,7 +458,7 @@ a.lin {
 }
 
 .pipyka {
-    margin-left: 17px;
+    margin-left: 75px;
 }
 
 .pipyk{

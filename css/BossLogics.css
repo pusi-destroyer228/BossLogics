@@ -13,6 +13,10 @@ h1, h2, h3, h4, h5, h6{
     padding: 0 -1px 0 20px;
 }
 
+.hahah {
+    overflow: hidden;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -136,12 +140,12 @@ h1, h2, h3, h4, h5, h6{
 
 .dfl {
     position: relative;
-    overflow: hidden;
+    
 }
 
 .dfll {
     position: relative;
-    overflow: hidden;
+    
 }
 
 .dfll{
@@ -428,6 +432,14 @@ ul>li {
 }
 
 .main-text h2{
+    font-size: 60px;
+    color: #1a1a1a;
+    font-weight: 500;
+    font-family: "Geometria-Medium";
+    padding-left: 23px;
+}
+
+.main-text-title h2{
     font-size: 60px;
     color: #1a1a1a;
     font-weight: 500;

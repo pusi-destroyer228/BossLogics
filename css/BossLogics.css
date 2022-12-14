@@ -58,32 +58,13 @@ h1, h2, h3, h4, h5, h6{
     z-index: -1;
 }
 
-.bg4 {
-    position: absolute;
-    background: url(../img/Path\ 0\ \(3\).svg) no-repeat;
-    right: 0;
-    top: -75rem;
-    width: 52%;
-    height: 800rem;
-    z-index: -1;
-}
-
-.bg5 {
-    position: absolute;
-    background: url(../img/Path\ 0\ \(4\).svg) no-repeat;
-    right: -60rem;
-    width: 50%;
-    height: 664rem;
-    z-index: -1;
-}
-
 .bg6 {
     position: absolute;
     background: url(../img/Path\ 21.svg) no-repeat;
     top: -12rem;
     left: -12rem;
     width: 60%;
-    height: 50rem;
+    height: 51rem;
     z-index: -1;
 }
 
@@ -93,7 +74,7 @@ h1, h2, h3, h4, h5, h6{
     top: -20%;
     left: -8%;
     width: 100%;
-    height: 50rem;
+    height: 51rem;
     z-index: -1;
 }
 
@@ -117,8 +98,8 @@ h1, h2, h3, h4, h5, h6{
 	width: 80%;
 	height: 200%;
 	top: -5%;
-	right: -15%;
-	background: url(../img/Path\ 23.svg) no-repeat;
+	right: -10%;
+	background: url(../img/bottom.svg) no-repeat;
 	z-index: -1;
 	transform: rotate(5deg);
 }
@@ -129,7 +110,7 @@ h1, h2, h3, h4, h5, h6{
 	height: 200%;
 	top: 20%;
 	right: -50%;
-	background: url(../img/Path\ 24.svg) no-repeat;
+	background: url(../img/bottom.svg) no-repeat;
 	z-index: -1;
 }
 
@@ -137,16 +118,21 @@ h1, h2, h3, h4, h5, h6{
 	position: absolute;
 	width: 100%;
 	height: 200%;
-	top: 40%;
-	right: -50%;
-	background: url(../img/Path\ 25.svg) no-repeat;
+	top: 35%;
+	right: -60%;
+	background: url(../img/bottom.svg) no-repeat;
 	z-index: -1;
-	transform: rotate(20deg);
+	transform: rotate(50deg);
 }
 
 .main-seconde {
     position: relative;
 }
+
+.h1, h3{
+    padding-left: 20px;
+}
+
 
 .dfl {
     position: relative;
@@ -156,7 +142,6 @@ h1, h2, h3, h4, h5, h6{
 .dfll {
     position: relative;
     overflow: hidden;
-    padding-bottom: 100px;
 }
 
 .dfll{
@@ -197,6 +182,50 @@ img{
     padding: 0;
 }
 
+.white-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 10%;
+    right: -50%;
+    background: url(../img/white.svg) no-repeat;
+    background-size: 100% / contain;
+    z-index: -2;
+}
+
+.white-bg-two {
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    top: 15%;
+    left: 50%;
+    background: url(../img/white.svg) no-repeat;
+    background-size: 100% / contain;
+    z-index: -2;
+}
+
+.white-bg-l {
+    position: absolute;
+    width: 60%;
+    height: 150%;
+    top: 3302px;
+    left: -25%;
+    background: url(../img/big-white.svg) no-repeat;
+    background-size: auto;
+    z-index: -1;
+}
+
+.white-bg-two-l {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 55%;
+    left: -50%;
+    background: url(../img/white.svg) no-repeat;
+    background-size: auto;
+    z-index: -1;
+}
+
 .nav-menu li{
     margin-right: 50px;
 }
@@ -211,6 +240,17 @@ img{
     text-decoration: none;
 }
 
+.pad-12{
+    margin: 0 12px 25px 0;
+}
+
+.pad-13{
+    margin: 0 2px 25px 0;
+}
+
+.pad-14{
+    margin: 0 4px 25px 0;
+}
 
 .nav-menu li a:hover{
     color: #1a1a1a;
@@ -243,44 +283,40 @@ img{
  
 
  a.fb {
+    width: 13px;
     height: 19px;
-    width: 10px;
-    background-position: 0px 0px;
+    background-position: -1px -2px;
  }
  
  .social li:hover>.fb {
     height: 19px;
-    width: 10px;
-    background-position: 0px -44px;
+    width: 13px;
+    background-position: -1px -24px;
  }
  
  a.tw {
-    width: 23px;
-    height: 20px;
-    background-position: -13px 0;
+    width: 24px;
+    height: 19px;
+    background-position: -15px -2px;
  }
  
  .social li:hover>.tw {
-    width: 23px;
-    height: 20px;
-    background-position: -13px -44px;
- }
-
- .twite {
-    margin: 0 20px;
+    width: 24px;
+    height: 19px;
+    background-position: -15px -24px;
  }
  
 
  .social li:hover>.in {
     width: 20px;
-    height: 20px;
-    background-position: -39px -44px;
+    height: 19px;
+    background-position: -41px -24px;
  }
  
  a.in{
     width: 20px;
-    height: 20px;
-    background-position: -39px 0px;
+    height: 19px;
+    background-position: -41px -2px;
 }
 
 .linke {
@@ -291,34 +327,99 @@ img{
     margin-left: 90px;
 }
 
-a.inl{
-    width: 22px;
-    height: 20px;
-    background-position: -62px 0px;
+a.inl {
+    width: 21px;
+    height: 21px;
+    background-position: -63px -2px;
 }
 
 .social li:hover>.inl{
-    width: 22px;
-    height: 20px;
-    background-position: -62px -44px;
+    width: 21px;
+    height: 21px;
+    background-position: -63px -24px;
  }
 
-.sociall {
-    display: flex;
-}
-
         /* SOCIAL */
+
+
+        /* MAIN */
 
 .main-first{
     padding-top: 250px;
     margin-left: 20px;
 }
 
+
+.social-bottom a {
+	display: block;
+	background: url(../img/sprite.png) no-repeat;
+}
+
+a.fb-b {
+	width: 13px;
+	height: 19px;
+	background-position: -2px -2px;
+}
+
+a.fb-b:hover {
+	width: 13px;
+	height: 19px;
+	background-position: -3px -47px;
+}
+
+a.tw-b {
+	width: 24px;
+	height: 19px;
+	background-position: -15px -2px;
+}
+
+a.tw-b:hover {
+	width: 24px;
+	height: 19px;
+	background-position: -16px -48px;
+}
+
+a.inst-b {
+	width: 20px;
+	height: 19px;
+	background-position: -41px -2px;
+}
+
+a.inst-b:hover {
+	width: 20px;
+	height: 19px;
+	background-position: -42px -48px;
+}
+
+a.in-b {
+	width: 22px;
+	height: 21px;
+	background-position: -63.5px -2px;
+}
+
+a.in-b:hover {
+	width: 22px;
+	height: 21px;
+	background-position: -64.5px -46px;
+}
+
+
+.social-bottom {
+    display: flex;
+    padding: 40px 0;
+    align-items: center;
+    column-gap: 25px;
+}
+
+ul>li {
+    list-style: none;
+}
+
 .main-text{
     border-left: 3px solid #00cbff;
 }
 
-.main-text h1 {
+.main-text h1{
     font-size: 60px;
     color: #1a1a1a;
     font-weight: 500;
@@ -326,15 +427,7 @@ a.inl{
     padding-left: 23px;
 }
 
-.main-text h2 {
-    font-size: 60px;
-    color: #1a1a1a;
-    font-weight: 500;
-    font-family: "Geometria-Medium";
-    padding-left: 23px;
-}
-
-.main-text-title h2 {
+.main-text h2{
     font-size: 60px;
     color: #1a1a1a;
     font-weight: 500;
@@ -343,7 +436,7 @@ a.inl{
 }
 
 .osob-style{
-    font-size: 55px;
+    font-size: 50px;
     color: #1a1a1a;
     font-weight: 500;
     font-family: "Geometria-Medium";
@@ -381,6 +474,7 @@ a.inl{
     display: flex;
     margin: 55px 0;
 }
+
 
 .buttom a{
     font-size: 14px;
@@ -434,11 +528,11 @@ a.inl{
 }
 
 .pipyka {
-    margin-left: 75px;
+    margin-left: 17px;
 }
 
 .pipyk{
-    margin: 300px 0 0 150px;
+    margin-left: 95px;
 }
 
 .image{
@@ -483,26 +577,6 @@ a.inl{
     margin: 300px 0 0 150px;
 }
 
-.items {
-    max-width: 80px;
-    max-height: 80px;
-}
-
-.items1 {
-    margin-right: 2px;
-    margin-bottom: 25px;
-}
-
-.items2 {
-    margin-right: 12px;
-    margin-bottom: 25px;
-}
-
-.items3 {
-    margin-right: 4px;
-    margin-bottom: 25px;
-}
-
 .items-title h4{
     font-size: 20px;
     letter-spacing: 2px;
@@ -522,11 +596,16 @@ a.inl{
 
 .flex{
     display: flex;
+    justify-content: space-between;
     margin-top: 25px;
 }
 
-.space-beetwen {
-    justify-content: space-between;
+.corka{
+    margin-left: 10px;
+}
+
+.twitter{
+    margin: 0 20px;
 }
 
 .flexx{
@@ -534,6 +613,10 @@ a.inl{
     justify-content: space-between;
     padding: 80px 0 50px 0;
     border-bottom: 1px solid #fff;
+}
+
+.pad-0{
+    padding: 0; 
 }
 
 .first-mini-block{
@@ -621,6 +704,7 @@ a.inl{
     margin: 285px 0 210px 0;
 }
 
+
 .gg{
     padding: 20px 0 50px 0;
 }
@@ -639,10 +723,6 @@ footer{
     padding: 0 25px;
 }
 
-.footer-logo img {
-    padding-bottom: 15px;
-}
-
 .flex-image{
     display: flex;
     align-items: end;
@@ -657,10 +737,6 @@ footer{
     padding: 0;
 }
 
-.picture-sub-title {
-    border-top: 1px solid #00cbff;
-}
-
 
 .img img{
     max-width: 700px;
@@ -670,7 +746,9 @@ footer{
     padding-top: 10px;
 }
 
-.logo{
+
+
+.logo {
     height: 22px;
     max-width: 165px;
 }
@@ -693,6 +771,11 @@ footer{
     text-align: left;
     line-height: 1.57;
 }
+
+.sub-title{
+    padding-left: 20px;
+}
+
 
 .sub-title-nav{
     padding: 0;
@@ -720,7 +803,7 @@ footer{
 
 .posh::before{
     content: url(../img/poshta.svg);
-    padding-right: 5px;
+    padding-right: 10px;
     margin-left: -20px;    
 }
 
@@ -789,12 +872,8 @@ footer{
     text-decoration: none;
 }
 
-.sociall {
-    margin: 40px 0 0 0;
-}
-
-.sociall  li {
-    margin: 0 40px 0 0;
+.sociall li{
+    padding: 40px 20px 0 5px;
 }
 
 form{
@@ -804,6 +883,7 @@ form{
 .lepa{
     margin-left: 20px;
 }
+
 
 .logo-fot-sec a{
     opacity: 0.612;

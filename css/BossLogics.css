@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6{
 
 .wrapper {
     width: 100%;
-    max-width: 1410px;
+    max-width: 1420px;
     margin: 0 auto;
     padding: 0 -1px 0 20px;
 }
@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6{
 	position: absolute;
 	width: 80%;
 	height: 200%;
-	top: -5%;
+	top: -4%;
 	right: -10%;
 	background: url(../img/bottom.svg) no-repeat;
 	z-index: -1;
@@ -206,7 +206,7 @@ img{
 
 .white-bg-l {
     position: absolute;
-    width: 60%;
+    width: 80%;
     height: 150%;
     top: 3250px;
     left: -25%;
@@ -612,7 +612,7 @@ ul>li {
     display: flex;
     justify-content: space-between;
     padding: 80px 0 50px 0;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #66737d;
 }
 
 .pad-0{
